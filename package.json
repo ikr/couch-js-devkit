@@ -4,6 +4,7 @@
   "description": "Tools to ease the deployment of npm modules and JS code in general into CouchDB",
   "main": "index.js",
   "scripts": {
+    "pretest": "jshint ./src ./tests",
     "test": "mocha ./tests/*.test.js"
   },
   "repository": {
