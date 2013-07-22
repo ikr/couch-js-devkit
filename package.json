@@ -1,0 +1,32 @@
+{
+  "name": "couch-js-devkit",
+  "version": "1.0.0",
+  "description": "Tools to ease the deployment of npm modules and JS code in general into CouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ikr/couch-js-devkit.git"
+  },
+  "keywords": [
+    "couchdb",
+    "commonjs",
+    "modules",
+    "transcode"
+  ],
+  "author": "Ivan Krechetov <ivan.krechetov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikr/couch-js-devkit/issues"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.4",
+    "mocha": "~1.12.0"
+  },
+  "dependencies": {
+    "cradle": "~0.6.6",
+    "underscore": "~1.5.1"
+  }
+}
