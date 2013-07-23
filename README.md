@@ -1,11 +1,8 @@
 # Purpose
 
 Test-drive a node module with a closed set of dependencies, and then use it as a CouchDB CommonJS
-module, with the help of the installation/update functions from this package.
-
-# Example
-
-[coming]
+module, with the help of the installation/update functions from this package. See the
+[example](https://gist.github.com/ikr/5458801).
 
 # License: MIT
 
