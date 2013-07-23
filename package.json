@@ -1,10 +1,10 @@
 {
   "name": "couch-js-devkit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Tools to ease the deployment of npm modules and JS code in general into CouchDB",
   "main": "index.js",
   "scripts": {
-    "pretest": "jshint ./src ./tests",
+    "pretest": "jshint ./src ./tests ./index.js",
     "test": "mocha ./tests/*.test.js"
   },
   "repository": {
