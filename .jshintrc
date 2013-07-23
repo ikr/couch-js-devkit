@@ -86,7 +86,7 @@
 
     "nomen"         : true,    // Prohibit use of initial or trailing underbars in names.
     "onevar"        : true,    // Allow only one `var` statement per function.
-    "passfail"      : false,    // Stop on first error.
+    "passfail"      : false,   // Stop on first error.
     "white"         : true,    // Check against strict whitespace and indentation rules.
 
     // == Misc. Options ===================================================
