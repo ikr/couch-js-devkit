@@ -1,6 +1,6 @@
 {
   "name": "couch-js-devkit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tools to ease the deployment of npm modules and JS code in general into CouchDB",
   "main": "index.js",
   "scripts": {
