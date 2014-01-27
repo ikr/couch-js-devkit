@@ -13,7 +13,12 @@
                 db.save('_design/' + schemaName, schema, callback || consoleCallback);
             }
             else if (err) {
-                console.info(err);
+                if (callback) {
+                    callback(err);
+                }
+                else {
+                    console.info(err);
+                }
             }
             else {
                 db.save('_design/' + schemaName, res._rev, schema, callback || consoleCallback);
